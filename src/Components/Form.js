@@ -76,6 +76,7 @@ export default function Form() {
               type="number"
               id="current-savings"
               value={investmentData.currentSavings}
+              min="0"
               onChange={handleCurrentSavingsChange}
             />
           </p>
@@ -85,6 +86,7 @@ export default function Form() {
               type="number"
               id="yearly-contribution"
               value={investmentData.yearlyContribution}
+              min="0"
               onChange={handleYearlyContributionChange}
             />
           </p>
@@ -98,6 +100,7 @@ export default function Form() {
               type="number"
               id="expected-return"
               value={investmentData.expectedReturn}
+              min="0"
               onChange={handleExpectedInterestChange}
             />
           </p>
@@ -107,6 +110,7 @@ export default function Form() {
               type="number"
               id="duration"
               value={investmentData.investmentDuration}
+              min="0"
               onChange={handleInvestmentDurationChange}
             />
           </p>
