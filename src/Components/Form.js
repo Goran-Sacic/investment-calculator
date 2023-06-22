@@ -93,9 +93,7 @@ export default function Form() {
         </div>
         <div className="input-group">
           <p>
-            <label htmlFor="expected-return">
-              Očekivana kamata (%, godišnje)
-            </label>
+            <label htmlFor="expected-return">Očekivana kamata (%)</label>
             <input
               type="number"
               id="expected-return"

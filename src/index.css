@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Geologica:wght@300&family=Noto+Sans:wght@300&family=Open+Sans:wght@300&family=Pathway+Extreme:wght@300&family=Raleway:wght@300&display=swap");
 
 * {
   box-sizing: border-box;
@@ -6,11 +6,11 @@
 
 body {
   margin: 0;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* background-color: #242a28; */
-  background: radial-gradient(#303b37, #1a1f1d);
+  background: radial-gradient(#2c0136, #110013);
   color: #e1eeeb;
 }
 
@@ -36,7 +36,7 @@ body {
   max-width: 30rem;
   margin: 2rem auto;
   border-radius: 4px;
-  background: linear-gradient(180deg, #307e6c, #2b996d);
+  background: linear-gradient(180deg, #66168b, #2c0231);
 }
 
 .input-group {
@@ -57,10 +57,10 @@ body {
 .form input {
   width: 100%;
   padding: 0.5rem;
-  border: 1px solid #76c0ae;
+  border: 1px solid #29003a;
   border-radius: 0.25rem;
   background-color: transparent;
-  color: #c2e9e0;
+  color: #fbfffe;
   font-size: 1rem;
 }
 
@@ -74,7 +74,7 @@ body {
   padding: 0.5rem 1rem;
   border: none;
   border-radius: 0.25rem;
-  background: linear-gradient(180deg, #1f584b, #17493d);
+  background: linear-gradient(180deg, #411f58, #391749);
   color: #c2e9e0;
   font-family: 'Roboto Condensed', sans-serif;
   cursor: pointer;
@@ -84,17 +84,17 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
   border: none;
   background: transparent;
-  color: #c2e9e0;
+  color: #e6e5e7;
   cursor: pointer;
 }
 
 button:hover {
-  background: linear-gradient(180deg, #1b5346, #113c32);
+  background: linear-gradient(180deg, #8737d1, #b207e6);
 }
 
 .buttonAlt:hover {
   background: transparent;
-  color: #91e1d0;
+  color: #9f00d4;
 }
 
 .result {
@@ -108,7 +108,7 @@ button:hover {
 
 .result thead {
   font-size: 0.7rem;
-  color: #83e6c0;
+  color: #9616d1;
 }
 
 .result tbody {
