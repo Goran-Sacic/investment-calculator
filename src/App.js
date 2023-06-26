@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import Header from "./Components/Header";
 import Form from "./Components/Form";
-/* import ResultsTable from "./Components/ResultsTable"; */
+
+// app link: https://investment-calculator-gs.netlify.app/
 
 function App() {
   return (
